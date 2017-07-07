@@ -1,0 +1,44 @@
+body{
+	background: url(black.jpg);
+}
+form{
+	background: #00bfff;
+	border:1px solid #87cefa;
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+}
+.registrer{
+	position: relative;
+	left: 25%;
+	width: 50%;
+}
+label {
+	font-size: 20px;
+	display: block;
+	width: 100%;
+}
+input {
+	margin-bottom:20px;
+	width: 100%;
+}
+#aceptar{
+position: relative;
+	left: 35%;
+	border: 1px solid #000;
+	width: 25%;
+	background:#a9a9a9;
+}
+
+#aceptar:hover{
+	font-size: 15px;
+	background: #ffd700;
+	border: none;
+}
+h1{
+	color: rgba(255,105,180, 0.70);
+}
+
+input{
+	margin-bottom: 7px;
+}
