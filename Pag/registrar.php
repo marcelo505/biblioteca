@@ -17,3 +17,4 @@ mysqli_query($conectar, 'SET NAMES "utf8"');
     	echo "datos guardados correctamente";
     }
 		mysqli_close($conectar);
+header('Location:vremail.html');

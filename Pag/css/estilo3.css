@@ -1,0 +1,158 @@
+body{
+
+	background:#00bfff;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center 0;
+}
+*{
+	margin: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px
+
+
+}
+header{
+
+
+	background: url(../imagenes/2.jpg);
+    background-repeat: no-repeat;
+	padding: 20px;
+	width: 93.5%;
+	right: 50px;
+	font-size: 30px;
+	color: rgba(0, ,0, 0.60);
+        text-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+
+}
+#seccion{
+
+	display: block;
+	float: left;
+	width: 70%;
+	background: #FFFBB9;
+	border: 1px solid #999999;
+	padding: 20px;
+	height: 746px;
+	margin-right: 1px;
+	margin-top: 10px;
+
+}
+ #columna2 {
+ 	display: block;
+ 	 float: right;
+ 	 width: 20%;
+ 	 padding: 20px;
+ 	 background: #eeffff;
+ 	 border: 1px solid #999999;
+ 	 margin-left: 1px;
+ 	 height: 746px;
+
+
+ }
+
+ .menu{
+	position: relative;
+ 	width: 73.3%;
+ 	background: #ccc;
+ 	list-style: none;
+ 	margin: 0%;
+	display: inline-block;
+ 	padding: 0%;
+ 	margin-left: 20px;
+
+
+ }
+ .menu > li{
+ 	display: inline-block;
+ 	overflow: hidden;
+
+
+
+ }
+ .menu li a{
+ 	padding: 10px 20px;
+ 	color: #black;
+ 	text-decoration: none;
+
+
+ }
+
+ .menu li a:hover{
+
+ 	color: red;
+
+
+ }
+ .submenu{
+ 	position: absolute;
+	list-style:none;
+  background: #ccc;
+  width: 15%;
+  margin: 0px;
+  padding: 0px;
+   visibility: hidden;
+
+	 left: 20%;
+ }
+ .submenu li a{
+ 	display: block;
+
+
+ }
+
+ .menu li:hover .submenu{
+ visibility: visible;
+
+
+ }
+
+img{
+
+	width: 220px;
+}
+#buscador{
+	position: relative;
+
+}
+#boton_de_buscar{
+	position: relative;
+	right: 60px;
+	display: inline-block;
+	width: 55px;
+}
+#caja_de_busqueda{
+	position: relative;
+	display: inline-block;
+width: 150px;
+right: 20px;
+margin-left: 0px;
+
+}
+.img{
+	position: relative;
+
+width: 200px;
+display: inline-block;
+
+
+}
+p .tex{
+	position: relative;
+	display: inline-block;
+}
+.caja1{
+	position: relative;
+}
+.imagen{
+	width: 400px;
+}
+.image{
+	width: 600px;
+}
+footer{
+position: relative;
+left: 35%;
+}

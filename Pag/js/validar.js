@@ -1,12 +1,6 @@
-    function login () {
-
-    var clave = document.getElementById("password").value;
-		var verificar_clave = document.getElementById("verify_password").value;
-    //var nombre = document.getElementById("name").value;
-
-  /*  if (nombre) {
-
-  }*/
+function login() {
+var clave = document.getElementById("password").value;
+var verificar_clave = document.getElementById("verify_password").value;
 
 		if (verificar_clave == clave){
 		return true;

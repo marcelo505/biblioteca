@@ -1,12 +1,16 @@
 body{
-	background: url(../imagenes/blu.jpg);
+	background:#00bfff;
+
 }
+
 form{
-	background: #00bfff;
+	background: #FFFBB9;
 	border:1px solid #87cefa;
 	width: 300px;
 	margin: 20px;
 	padding: 20px;
+    border-style: outset;
+
 }
 .login{
 	position: relative;
@@ -55,7 +59,7 @@ input[type="checkbox"]{
 }
 #aceptar:hover{
 	font-size: 13px;
-	background: #ffd700;
+	background: #aafffb;
 	border: none;
 }
 #crear{
@@ -68,14 +72,18 @@ input[type="checkbox"]{
 }
 #crear:hover{
 	font-size: 13px;
-	background: #ffd700;
-	border: none;
+	background: #aafffb;
+	border: ;
 }
 
 h1{
-	color: rgba(255,105,180, 0.70);
+	color: rgba(0, ,0, 0.60);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
  #catcha{
 	 background: #7fffd4;
 	 width: 15%;
  }
+a {
+    color:rgba(250,0,0,0.9);
+}

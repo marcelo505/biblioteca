@@ -16,12 +16,17 @@ body{
 header{
 
 
-	border: 1px solid #999999;
+	background: url(../imagenes/2.jpg);
+    background-repeat: no-repeat;
 	padding: 20px;
 	width: 93.5%;
 	right: 50px;
-	font-size: 30px;
-	color:red;
+	font-size: 40px;
+	color: rgba(34,139,34,1);
+    text-shadow: 5px 5px 5px #000;
+
+
+
 
 }
 #seccion{
@@ -50,7 +55,7 @@ header{
 
  }
 input:hover{
-	background: red;
+	
 	cursor: pointer;
 }
 input{
@@ -71,15 +76,24 @@ input{
  	 float: left;
  	 border-top: 0px;
 }
- img{
- 	display: inline;
- 	height: 80px;
- 	position: relative;
- 	background-position: 0px 20px;
- }
-.caja {
-	position: relative;
+ li{
+display: inline-block;
+ }img{
 
-	 display: inline;
-	left: 300px;
-	}
+	width: 220px;
+}
+.im{
+	position: relative;
+	width: 400px;
+	left: 25%;
+}
+footer{
+	border-color: transparent;
+	position: relative;
+	left: 45%;
+}
+.m{
+	position: relative;
+	width: 100px
+
+}
